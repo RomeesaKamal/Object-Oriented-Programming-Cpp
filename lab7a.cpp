@@ -52,7 +52,7 @@ class Child : public Parent
     }
     void show ()
     {
-       Parent(3); 
+       Parent p(3); 
        show1();
     }
 };
